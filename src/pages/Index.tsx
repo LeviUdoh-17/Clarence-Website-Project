@@ -8,16 +8,17 @@ import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import FocusesSection from "@/components/FocusesSection";
 
-
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
       <main>
-        <Hero />
+        <div className="lg:h-[600px] md:h-[500px]">
+          <Hero />
+        </div>
         <About />
         {/* <Industries /> */}
-        <FocusesSection/>
+        <FocusesSection />
         <Process />
         <Map />
         <ContactForm />
